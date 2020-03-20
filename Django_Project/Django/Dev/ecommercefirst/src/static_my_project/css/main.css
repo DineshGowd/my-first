@@ -1,0 +1,824 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
+*{
+
+font-family: 'Arvo', serif;
+}
+body{
+	background:#ffffff;
+}
+a{
+	text-decoration: none;
+}
+
+/* ------------------- Navbar starts ------------------------------------- */
+nav{
+	background:rgb(24,18,30,0.1);
+}
+.navbar-dark .navbar-nav .nav-link{
+	color:#242582;
+	font-family: 'Arvo', serif;
+	background:rgb(255,255,255,0.9);
+
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	color:#f64c72;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link{
+	color:black;
+}
+.navbar{
+  position:fixed;
+  width:100%;
+  top:0%;
+  z-index:999;
+  }
+.dropdown-menu{
+	background:rgb(255,255,255,0.9);;
+}
+.dropdown-menu .dropdown-item{
+	font-family: 'Arvo', serif;
+	background:rgb(255,255,255,0.9);;
+	color:#242582;
+}
+.dropdown-menu .dropdown-item:hover{
+	color:#f64c72
+}
+/* Alphabet logo start */
+.component{
+		background:rgb(255,255,255,0.9);
+		border-top-left-radius:10px;	
+		border-bottom-left-radius:10px;
+}
+.grid_logo {
+	padding: 0;
+	width: 100%;
+}
+.grid_logo li {
+	font-size: 3em;
+	line-height: 1;
+	float:left;
+	max-height: 290px;
+	width: 16.6666667%;
+	/* Fallback */
+	width: -webkit-calc(100% / 6);
+	width: calc(100% / 6);
+	margin:6px;
+}
+/* Common styles for the letters */
+.grid_logo li span {
+	font-weight: 900;
+	line-height: 1;
+	position: relative;
+	color: hsla(0, 0%, 0%, 0.6);
+	-webkit-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-perspective: 550px;
+	-ms-perspective: 550px;
+	perspective: 550px;
+	z-index: 1;
+}
+.grid_logo li span:before,
+.grid_logo li span:after {
+	position: absolute;
+	content: attr(data-letter);
+	line-height: inherit;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+.grid_logo li span:before {
+	text-shadow: none;
+	color: hsla(0, 0%, 0%, 0.12);
+}
+/* Colors */
+.ot-letter-left span { text-shadow: 1px 4px 6px #f64c72, 0 0 0 hsla(0, 0%, 0%, 0.3), 1px 4px 6px #f64c72; }
+.ot-letter-left span:after { color: #242582; }
+.ot-letter-left:hover span:after { color: #f64c72; }
+/* Left */
+.ot-letter-left span:before,
+.ot-letter-left span:after {
+	-webkit-transform-origin: 0 50%;
+	-ms-transform-origin: 0 50%;
+	transform-origin: 0 50%;
+}
+.ot-letter-left span:before {
+	-webkit-transform: scale(1.08,1) skew(0deg,1deg);
+	-ms-transform: scale(1.08,1) skew(0deg,1deg);
+	transform: scale(1.08,1) skew(0deg,1deg);
+}
+.ot-letter-left span:after {
+	text-shadow: -1px 0px 0px hsla(360, 100%, 100%, 0.1), 3px 0px 1px hsla(0, 0%, 0%, 0.4);
+	-webkit-transform: rotateY(-15deg);
+	-ms-transform: rotateY(-15deg);
+	transform: rotateY(-15deg);
+}
+.ot-letter-left:hover span:before {
+	-webkit-transform: scale(0.85,1) skew(0deg,20deg);
+	-ms-transform: scale(0.85,1) skew(0deg,20deg);
+	transform: scale(0.85,1) skew(0deg,20deg);
+}
+.ot-letter-left:hover span:after {
+	-webkit-transform: rotateY(-40deg);
+	-ms-transform: rotateY(-40deg);
+	transform: rotateY(-40deg);
+}
+/* Alphabet logo end */
+
+/* Brand Name starts*/
+.link {
+	background:rgb(255,255,255,0.9);
+	padding: 13px 5px 13px 0;
+	border-top-right-radius:10px;	
+	border-bottom-right-radius:10px;	
+	outline: none;
+	text-decoration: none;
+	position: relative;
+	font-size: 2em;
+	display: inline-block;
+}
+
+/* Ilin */
+.link--ilin {
+	font-weight: 900;
+	text-transform: uppercase;
+	line-height: 1;
+	overflow: hidden;
+	color: #242582;
+}
+.link--ilin span {	
+	position: relative;
+	display: inline-block;
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+}
+.link--ilin:hover span:first-of-type {
+	color: #f64c72;
+}
+.link--ilin:hover span:last-of-type {
+	color: #659dbd;
+}
+.link--ilin span::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	line-height: 0.8;
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+}
+.link--ilin span:last-of-type::before {
+	background: #fff176;
+}
+.link--ilin:hover span:last-of-type::before,
+.link--ilin span:first-of-type::before {
+	-webkit-transform: translate3d(0,-150%,0);
+	transform: translate3d(0,-150%,0);
+}
+.link--ilin:hover span:first-of-type::before,
+.link--ilin span:last-of-type::before {
+	-webkit-transform: translate3d(0,150%,0);
+	transform: translate3d(0,150%,0);
+}
+						/* Brand Name ends*/
+.sear:hover{
+color: #fff176;
+}
+
+/* ------------------------ Navbar ends --------------------------------- */
+
+/* ------------------------ Jumbotron starts --------------------------------- */
+
+
+/* ------------------------ Jumbotron ends --------------------------------- */
+
+/* -------------------- Products cards starts --------------------------- */
+.grid span {
+	float: left;
+	max-width: 500px;
+	width:90%;
+	color: #fff;
+	box-shadow: 10px 10px 5px grey;
+}
+.grid span:nth-child(odd) {
+	margin: 30px 0 -30px 0;
+}
+.grid figure {
+	position: relative;
+	overflow: hidden;
+	background: #fff;
+	height:400px;
+}
+.grid figure img {
+	position: relative;
+	display: block;
+	width: 100%;
+	opacity: 0.7;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+.grid figcaption {
+	position: absolute;
+	top: 0;
+	z-index: 11;
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.grid figcaption h2 {
+	margin: 0 0 20px 0;
+	color: #000000;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 300;
+	font-size: 130%;
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+.grid figcaption p {
+	padding: 0 20px;
+	color: #000000;
+	font-weight: 300;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+.grid figcaption h2,
+.grid figcaption p {
+	-webkit-transform: translateY(50px);
+	transform: translateY(50px);
+}
+.grid figure button {
+	color:red;
+	position: absolute;
+	border: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+.grid figcaption,
+.grid figcaption h2,
+.grid figcaption p,
+.grid figure button {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+/* Style for SVG */
+.grid svg {
+	position: absolute;
+	top: -1px; /* fixes rendering issue in FF */
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+}
+.grid svg path {
+	fill: #659dbd;
+	opacity: .9;
+}
+/* Hover effects */
+.grid span:hover figure img {
+	opacity: 1;
+}
+.grid span:hover figcaption h2,
+.grid span:hover figcaption p {
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+.grid span:hover figcaption p {
+	opacity: 0;
+}
+.demo-2 .grid figcaption h2 {
+	color: #000000;
+	font-weight: bold;
+}
+.demo-2 .grid figcaption p {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+.demo-2 .grid figure button {
+	bottom: 0;
+	left: 0;
+	padding: 30px;
+	width: 100%;
+	background: #659dbd;
+	opacity: .9;
+	font-weight: 300;
+	-webkit-transform: translateY(100%);
+	transform: translateY(100%);
+}
+.demo-2 .grid figure button a {
+	color: #000;
+	font-weight: bold;
+}
+.demo-2 .grid figure button a:hover {
+	color: #f64c72;
+}
+.demo-2 .grid span:hover figure button {
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+.demo-2 .grid figcaption h2, 
+.demo-2 .grid figcaption p
+{
+	-webkit-transition-timing-function: cubic-bezier(0.250, 0.250, 0.115, 1); /* older webkit */
+	-webkit-transition-timing-function: cubic-bezier(0.250, 0.250, 0.115, 1.445);
+	timing-function: cubic-bezier(0.250, 0.250, 0.115, 1.445);
+}
+.demo-2 .grid span:hover figcaption p{
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+	-webkit-transition-duration: 0.1s;
+	transition-duration: 0.1s;
+}
+
+
+/* -------------------- Products cards Ends ----------------------------- */
+
+
+/* -------------------- Products Detail Starts ----------------------------- */
+.card{
+ padding:0px;
+ min-height:800px;
+ box-shadow:5px 5px 5px 5px #cfcfcf;
+
+}
+.card img{
+ border-radius:10px;
+}
+
+/* -------------------- Products Detail Ends ----------------------------- */
+
+
+/* ---------------------------- Footer Start ---------------------------- */
+
+footer{
+background:rgb(24,18,30,0.1);
+width:100%;
+bottom:0%;
+color:#242582;
+padding:30px 16px 0px 0px;
+}
+
+footer a{
+text-decoration: none;
+color:#242582;
+}
+footer a:hover{
+text-decoration: none;
+color:#f64c72;
+}
+
+.circle {
+	background: rgb(255,255,255);
+	border-radius: 100%;
+	cursor: pointer;
+	position: relative;
+	margin: 0 auto;
+	width: 8.5em; height: 8.5em;
+	overflow: hidden;
+	-webkit-transform: translateZ(0);
+	   -moz-transform: translateZ(0);
+		-ms-transform: translateZ(0);
+			transform: translateZ(0);
+}
+
+.circle h1 {
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-weight: bolder;
+	font-size: 1em;
+	line-height:7em;
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+		-ms-user-select: none;
+			user-select: none;
+	-webkit-transition: color 0.8s ease-in-out;
+	   -moz-transition: color 0.8s ease-in-out;
+		-ms-transition: color 0.8s ease-in-out;
+			transition: color 0.8s ease-in-out;
+}
+
+.circle:before,
+.circle:after {
+	border-radius: 100%;
+	content:"";
+	position: absolute;
+	top: 0; left: 0;
+	width: inherit; height: inherit;
+	box-shadow: inset 10.6em 0 0 rgb(24,18,30,0.01),
+				inset 0 10.6em 0 rgb(24,18,30,0.01),
+				inset -10.6em 0 0 rgb(24,18,30,0.01),
+				inset 0 -10.6em 0 rgb(24,18,30,0.01);
+	-webkit-transition: box-shadow 0.75s;
+	   -moz-transition: box-shadow 0.75s;
+		-ms-transition: box-shadow 0.75s;
+			transition: box-shadow 0.75s;
+}
+
+.circle:after {
+	-webkit-transform: rotate(45deg);
+	   -moz-transform: rotate(45deg);
+			transform: rotate(45deg);
+}
+
+.circle:hover:before,
+.circle:hover:after {
+	box-shadow: inset 0.86em 0 0 rgba(255, 0, 0, 0.5),
+				inset 0 0.86em 0 rgba(252, 150, 0, 0.5),
+				inset -0.86em 0 0 rgba(0, 255, 0, 0.5),	
+				inset 0 -0.86em 0 rgba(0, 150, 255, 0.5);
+}
+
+.circle:hover > h1 {
+	color: rgba(0, 0, 0,1);
+}
+
+
+/* share starts */
+
+.share {
+  position: relative;
+  left:-7%;
+  top:-10%;
+}
+.share-button,
+.share-toggle-button {
+  position: absolute;
+  display: inline-block;
+  left: 50%;
+  top: 0;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background: #659dbd;
+  text-align: center;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+.share-button:hover,
+.share-toggle-button:hover {
+  color: #fff;
+}
+
+.share-button {
+  font-size: 30px;
+  -webkit-transform: scale(0.95, 0.95);
+  transform: scale(0.95, 0.95);
+  color:white;
+}
+
+a.share-button {
+  color:white;
+}
+
+a.share-button:hover,a.share-button:focus 
+{
+ color:#f64c72;
+}
+
+.share-toggle-button {
+  z-index: 9;
+  background: #659dbd;
+  font-size: 25px;
+}
+.share-items {
+  list-style-type: none;
+}
+
+.share-item {
+  display: inline-block;
+}
+
+.fa{
+line-height:1.5;}
+
+
+//follow
+
+.follow {
+  max-width: 600px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.follow-button,
+.follow-toggle-button {
+  position: absolute;
+  display: inline-block;
+  left: 44%;
+  top: 75%;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background: #659dbd;
+  text-align: center;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+.follow-button:hover,
+.follow-toggle-button:hover {
+  color: #fff;
+}
+
+.follow-button {
+  font-size: 30px;
+  -webkit-transform: scale(0.95, 0.95);
+  transform: scale(0.95, 0.95);
+  color:blue; 
+}
+
+a.follow-button {
+  color:white;
+}
+
+a.follow-button:hover,a.follow-button:focus 
+{
+ color:#f64c72;
+}
+
+.follow-toggle-button {
+  z-index: 9;
+  background: #659dbd;
+  font-size: 20px;
+}
+.follow-items {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.follow-item {
+  display: inline-block;
+}
+
+.fa{
+line-height:1.5;}
+
+/* share ends */
+
+/* ---------------------------- Footer Ends ------------------------------- */
+
+/* ---------------------------- Button Style Starts ------------------------------- */
+
+.btn-5 {
+	background: #659dbd;
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 3% 1%;
+	overflow: hidden;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.btn-5 span {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: all 0.3s;
+	-webkit-backface-visibility: hidden;
+	-moz-transition: all 0.3s;
+	-moz-backface-visibility: hidden;
+	transition: all 0.3s;
+	backface-visibility: hidden;
+}
+
+.btn-5:before {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	font-size: 180%;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+/* Button 5b */
+.btn-5b:hover span {
+	-webkit-transform: translateX(200%);
+	-moz-transform: translateX(200%);
+	-ms-transform: translateX(200%);
+	transform: translateX(200%);
+}
+
+.btn-5b:before {
+	left: -100%;
+	top: 0;
+}
+
+.btn-5b:hover:before {
+	left: 0;
+}
+
+.icon-cart:before{
+	font-family:"FontAwesome";
+	content:"\f217";
+	font-weight: 900;
+	color:#f64c72;
+	text-decoration:inherit;
+}
+
+.icon-checkout:before{
+	color:#f64c72;
+	font-family:"FontAwesome";
+	content:"\f217";
+	font-weight: 900;
+	text-decoration:inherit;
+}
+.icon-message:before{
+	color:#f64c72;
+	font-family:"FontAwesome";
+	content:"\f086";
+	font-weight: 900;
+	text-decoration:inherit;
+}
+.icon-login:before{
+	font-family:"FontAwesome";
+	content:"\f090";
+	font-weight: 900;
+	text-decoration:inherit;
+	color:#f64c72;
+}
+.icon-signup:before{
+	color:#f64c72;
+	font-family:"FontAwesome";
+	content:"\f234";
+	font-weight: 900;
+	text-decoration:inherit;
+}
+.icon-remove:before{
+	color:#f64c72;
+	font-family:"FontAwesome";
+	content:"\f00d";
+	font-weight: 900;
+	text-decoration:inherit;
+}
+
+
+/* ---------------------------- Button Style Ends ------------------------------- */
+
+/* ---------------------------- Products Detail Starts  ------------------- */
+
+.inner_section {
+	position: relative;
+	padding: 2em 10% 7em 10%;
+	background:#f0ebf4;
+	/*#f7f9fb;*/
+	/*#cafafe;*/
+	color: #000;
+/*	border:1px red solid;
+*/}
+.card-header{
+	padding:5px 10px;
+	margin:2em 0px;
+}
+
+.inner_section h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+}
+
+.inner_section p {
+	color: rgba(0,0,0);
+}
+
+.column {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.inner_section.color h2 {
+	color: #fff;
+}
+
+.color {
+	background:#fff;
+}
+
+/* Common style for pseudo-elements */
+.inner_section::before,
+.inner_section::after {
+	position: absolute;
+	content: '';
+	pointer-events: none;
+}
+
+/* Triangles */
+.ss-style-triangles::after {
+	left: 50%;
+	width: 100px;
+	height: 100px;
+	-webkit-transform: translateX(-50%) rotate(45deg);
+	transform: translateX(-50%) rotate(45deg);
+}
+
+.ss-style-triangles::after {
+	bottom: -25px;
+	z-index: 10;
+	background: inherit;
+}
+/* Clouds */
+#clouds path {
+	fill: #ecf0f1;
+	stroke: #ecf0f1;
+}
+
+
+
+/* ---------------------------- Products Detail Ends  ------------------- */
+
+/* ---------------------------- Login and Signup Start  ------------------- */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&display=swap');
+.left{
+  background-position: center center;
+  background-repeat: no-repeat; 
+  filter:opacity(80%);
+}
+.login_title{
+color:#001064;
+font-size:40px;
+margin-top:10%;
+font-weight:bolder;
+font-family: 'Roboto Slab', serif;
+}
+
+.signup_up_title{
+color:#001064;
+font-size:40px;
+margin-top:10%;
+font-weight:bolder;
+font-family: 'Roboto Slab', serif;
+}
+
+.login_guest{
+margin-top:200px;
+}
+/* ---------------------------- Login and Signup Ends  ------------------- */
+
+
+/* ---------------------------- Address starts  ------------------- */
+.address{
+	font-weight: bold;
+	text-align: center;
+	font-size: 2rem;
+}
+
+
+
+
+/* ---------------------------- Address Ends  ------------------- */
+
+
+
+
+/* ---------------------------- Homepage Starts  ------------------- */
+
+.home_circle {
+	display: block;
+	width: 2em;
+	height: 2em;
+	border-radius: 50%;
+	background: yellow;
+	color: #fff;
+	text-align: center;
+	font-size: 8em;
+	line-height: 2em;
+	margin: 0 auto;
+}
+#bigHalfCircle path {
+	fill:rgb(24,18,30,0.1);;
+	stroke:rgb(24,18,30,0.1);
+}
+.c1{
+background:url('img/c1.jpg');
+}
+.c2{
+	
+}
+.c3{
+	
+}
+/* ---------------------------- Homepage Ends  ------------------- */
+
+

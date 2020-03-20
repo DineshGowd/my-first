@@ -1,0 +1,16 @@
+ <form class="form-inline" method="POST" action="{% url 'cart:update' %}">{% csrf_token %}
+ 	<input type="hidden" name="product_id" value="{{ product.id }}" />
+
+ 	{% if in_cart %}
+		<button type="submit" class="btn btn-5 btn-5b icon-remove" style = "position:relative; left:65%"><span>Remove?</span></button>
+
+ 	{% else %}
+	    {% if product in cart.products.all %}
+	   	<button type="submit" class="btn btn-5 btn-5b icon-remove" style = "position:relative; left:65%;"><span>Remove?</span></button>
+
+		{% else %}
+			<button class="btn btn-5 btn-5b icon-cart" style = "padding: 12px 0; position:relative; left:65%; width:150px;" type="submit"><span>Add To Cart?</span></button>
+		{% endif %}
+
+	{% endif %}
+ </form>

@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<h1>Cart</h1>
+{%  if cart.products.exists %}
+<table class="table font-weight-bolder">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Product</th>
+      <th scope="col">Product Name</th>
+      <th scope="col">Product Price</th>
+    </tr>
+  </thead>
+
+  <tbody>
+  	{% for product in cart.products.all %}
+    <tr>
+      <th scope="row">{{ forloop.counter }}</th>
+      <td><img src="{{product.image.url }}" style="max-width:100px;max-height:100px"></td>
+      <td>
+      <a href="{{ product.get_absolute_url }}">{{ product.title }}</a>
+        {% include 'products/snippets/update-cart.html' with product=product cart=cart in_cart=True %}
+      </td>
+      <td>{{ product.price }}</td>
+    </tr>
+    {% endfor %}
+    <tr>
+   	  <td colspan="3"><b>Subtotal</b></td>
+      <td>{{ cart.subtotal }}</td>
+     </tr>
+    <tr>
+      <td colspan="3"><b>Total</b></td>
+      <td>{{ cart.total }}</td>
+     </tr>
+     <tr>
+      <td colspan="3"><b></b></td>
+      <td>
+        <a href='{% url "cart:checkout" %}'><button class="btn btn-5 btn-5b icon-cart" style ="position:relative;"><span>CheckOut</span></button></a>
+      </td>
+     </tr>
+      
+  </tbody>
+</table>
+{%  else %}
+      <img src="{% static 'img/cart.png' %}" class="mx-auto" style=" display: block;height: 300px;width: 300px;"/>
+{% endif %}
+{% endblock %}

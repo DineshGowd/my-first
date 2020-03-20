@@ -1,0 +1,8 @@
+ <form class="form-inline" method="GET" action="{% url 'search:query' %}">
+ 	<div class="input-group">
+      <input class="form-control" style="padding:0px 3px" type="search" placeholder="Search" name='q' aria-label="Search" value="{{ request.GET.q }}">
+      <span class="input-group-btn">
+      <button class="btn sear" style="color:#242582;background:#fff;font-weight:bold;" type="submit">Search</button>
+      </span>
+    </div>
+ </form>

@@ -1,0 +1,29 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{{title}}</title>
+    {% block base_head %}{% endblock base_head  %}
+    {% include "base/css.html" %}
+  </head>
+<body class="text-dark" style="background: url( {% static 'img/images.png' %} );">
+    {% include "base/navbar.html" with brand_name="CBeyondPro" nav_home="Home" nav_blog="Blog" nav_products="Products" nav_login="Login" nav_register="Register" nav_contact="Contact" %}
+    
+      <div style="margin-top:76px;min-height:600px;padding-right: 16px">
+
+
+          {% block jumbo_content %}{% endblock jumbo_content %}
+
+
+          {% block content %}{% endblock  %}
+
+      </div>
+
+    {% include "base/footer.html" %}
+    {% include "base/js.html" %}
+</body>
+</html>

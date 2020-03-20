@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="container-fluid">
+	<div class="row">
+
+			<div class="col-xs-12 col-sm-12 col-md-6 col- left  d-none d-md-block d-lg-block" style="background-image: url({% static 'img/loginn.png' %})">
+    		</div>
+    		<div class="col-xs-12 col-sm-12 col-md-6 col- right min-vh-100 mt-5">
+     		  	<div class="text-center login_title">Login</div>{% csrf_token %}
+     		  	<form style="margin:10% 25%" method="POST">{% csrf_token %}
+			  		{{ form }}
+			  		<button type="submit" class="btn btn-5 btn-5b icon-login my-5" style ="position:relative;"><span>Login</span></button>
+				</form>
+    		</div>
+    		
+	</div>
+</div>
+{% endblock  %}

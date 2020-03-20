@@ -1,0 +1,18 @@
+<section id="grid" class="grid clearfix ">
+	<span data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+		<figure>
+			{% if instance.image %}
+			<img src="{{ instance.image.url }}" style="height: inherit;"/>
+			{% endif %}
+			<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+			<figcaption>
+				<h2>{{instance.title}}</h2>
+				<p>{{instance.description|linebreaks|truncatechars:40}}</p>
+				<p><b>Price:{{instance.price}}</b></p>
+				<button><a href="{{ instance.get_absolute_url }}" style="text-decoration:none;">View Details</a></button>
+			</figcaption>
+		</figure>
+	</span>
+</section>
+
+

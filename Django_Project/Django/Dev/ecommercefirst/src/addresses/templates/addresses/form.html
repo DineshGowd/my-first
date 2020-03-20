@@ -1,0 +1,18 @@
+<div class="row text-danger">
+		<div class="col-2 mx-auto text-dark">
+<form method="POST" action="{% if action_url %}{{ action_url }}{% else %}{% url 'login' %}{% endif %}">
+			{% csrf_token %}
+
+			{% if next_url %}
+			<input type="hidden" name="next" value="{{ next_url }}" />
+			{% endif  %}
+
+ 			{% if address_type %}
+				<input type="hidden" name="address_type" value="{{ address_type }}" />
+			{% endif  %}
+		
+		    {{ form.as_p }}
+			<button class="btn btn-5 btn-5b icon-cart" style = "padding: 12px 0; position:relative; width:150px;" type="submit"><span>Checkout</span></button>
+			</form>
+		</div>
+</div>

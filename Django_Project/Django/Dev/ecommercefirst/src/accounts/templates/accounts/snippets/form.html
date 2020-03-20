@@ -1,0 +1,14 @@
+<div class="row">
+	<div class="col-8 mx-auto text-dark">
+		<form style="margin:10% 15%" method="POST" action="{% if action_url %}{{ action_url }}{% else %}{% url 'login' %}{% endif %}">
+			{% csrf_token %}
+
+			{% if next_url %}
+				<input type="hidden" name="next" value="{{ next_url }}" />
+			{% endif  %}
+
+		  	{{ form }}
+		  	<button type="submit" class="btn btn-5 btn-5b icon-login my-5" style ="position:relative;"><span>Login</span></button>
+		</form>
+	</div>
+</div>

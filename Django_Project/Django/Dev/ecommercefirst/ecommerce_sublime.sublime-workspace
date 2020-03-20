@@ -1,0 +1,975 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"booo",
+				"bookStoreApp"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"FON",
+				"font-weight\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"ma",
+				"margin-left\tproperty"
+			],
+			[
+				"da",
+				"date"
+			],
+			[
+				"h",
+				"height\tproperty"
+			],
+			[
+				"back",
+				"background-position\tproperty"
+			],
+			[
+				"co",
+				"cover\tobject-fit"
+			],
+			[
+				"ob",
+				"object-fit\tproperty"
+			],
+			[
+				"ba",
+				"background-repeat\tproperty"
+			],
+			[
+				"pa",
+				"padding\tproperty"
+			],
+			[
+				"hea",
+				"heading_1"
+			],
+			[
+				"add",
+				"address"
+			],
+			[
+				"col",
+				"col-md-6"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"max",
+				"max-height\tproperty"
+			],
+			[
+				"s",
+				"style\tAttr"
+			],
+			[
+				"shad",
+				"box-shadow\tproperty"
+			],
+			[
+				"bor",
+				"border-bottom\tproperty"
+			],
+			[
+				"fon",
+				"font-weight\tproperty"
+			],
+			[
+				"u",
+				"url()\tbackground"
+			],
+			[
+				"cont",
+				"container"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"pro",
+				"product"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"ch",
+				"checkout_home"
+			],
+			[
+				"ad",
+				"address_line2"
+			],
+			[
+				"line",
+				"line2"
+			],
+			[
+				"bi",
+				"billing_profile"
+			],
+			[
+				"bil",
+				"billing"
+			],
+			[
+				"billi",
+				"billing_profile"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"b",
+				"billing_address"
+			],
+			[
+				"A",
+				"AddressForm"
+			],
+			[
+				"bo",
+				"billing_address_form"
+			],
+			[
+				"billing",
+				"billing_address"
+			],
+			[
+				"o",
+				"order_obj"
+			],
+			[
+				"sh",
+				"shipping_address"
+			],
+			[
+				"shipp",
+				"shipping_address"
+			],
+			[
+				"bill",
+				"billing_profile"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"B",
+				"BillingProfileManager"
+			],
+			[
+				"Or",
+				"OrderMananger"
+			],
+			[
+				"obj",
+				"objects"
+			],
+			[
+				"se",
+				"self"
+			],
+			[
+				"cart",
+				"cart_obj"
+			],
+			[
+				"order",
+				"order_obj"
+			],
+			[
+				"order_",
+				"order_qs"
+			],
+			[
+				"ca",
+				"cart"
+			],
+			[
+				"i",
+				"import"
+			],
+			[
+				"g",
+				"guest_email_obj"
+			],
+			[
+				"Gu",
+				"GuestEmail"
+			],
+			[
+				"gu",
+				"guest_email_id"
+			],
+			[
+				"log",
+				"login"
+			],
+			[
+				"ge",
+				"get"
+			],
+			[
+				"G",
+				"GuestForm"
+			],
+			[
+				"E",
+				"EmailField"
+			],
+			[
+				"n",
+				"new_total"
+			],
+			[
+				"car",
+				"cart_total"
+			],
+			[
+				"ra",
+				"random_string_generator"
+			],
+			[
+				"p",
+				"products"
+			],
+			[
+				"P",
+				"product_id"
+			],
+			[
+				"a",
+				"all"
+			],
+			[
+				"c",
+				"cart_obj"
+			],
+			[
+				"prod",
+				"product_obj"
+			],
+			[
+				"new",
+				"new_or_get"
+			],
+			[
+				"d",
+				"def\tFunction"
+			],
+			[
+				"in",
+				"instance"
+			],
+			[
+				"r",
+				"request"
+			],
+			[
+				"mo",
+				"model"
+			],
+			[
+				"cre",
+				"cart_create"
+			],
+			[
+				"C",
+				"Cart"
+			],
+			[
+				"t",
+				"total"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"Cart",
+				"CartManager"
+			],
+			[
+				"ne",
+				"new_obj"
+			],
+			[
+				"is",
+				"is_authenticated"
+			],
+			[
+				"use",
+				"user"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"an",
+				"animation-iteration-count\tproperty"
+			],
+			[
+				"q",
+				"query"
+			],
+			[
+				"te",
+				"text-decoration\tproperty"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"fo",
+				"format"
+			],
+			[
+				"D",
+				"DoesNotExist"
+			],
+			[
+				"get_o",
+				"get_object_or_404"
+			],
+			[
+				"de",
+				"default"
+			],
+			[
+				"f",
+				"from"
+			],
+			[
+				"Por",
+				"ProductListView"
+			],
+			[
+				"STA",
+				"static"
+			],
+			[
+				"get",
+				"get_user_model"
+			],
+			[
+				"e",
+				"email"
+			],
+			[
+				"Con",
+				"confirm_password"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"Re",
+				"RegisterForm"
+			],
+			[
+				"for",
+				"forms"
+			],
+			[
+				"con",
+				"contact_form"
+			],
+			[
+				"Co",
+				"ContactForm"
+			],
+			[
+				"conta",
+				"contact_page"
+			],
+			[
+				"conte",
+				"content"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/addresses/apps.py",
+			"settings":
+			{
+				"buffer_size": 93,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/carts/templates/carts/home.html",
+			"settings":
+			{
+				"buffer_size": 1397,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/hp/Desktop/template.html",
+			"settings":
+			{
+				"buffer_size": 247,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/hp/Downloads/BDD_Trend_Nxt-master/BDD/Product_Comparison.rb",
+			"settings":
+			{
+				"buffer_size": 4313,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/hp/Desktop/python_new/p8.py",
+			"settings":
+			{
+				"buffer_size": 404,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/hp/Desktop/python_new/Myxml.xml",
+			"settings":
+			{
+				"buffer_size": 562,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/hp/Desktop/python_new/filesize.txt",
+			"settings":
+			{
+				"buffer_size": 248,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/hp/Desktop/Django_Project/Django/Dev/ecommercefirst",
+		"/C/Users/hp/Desktop/Django_Project/Django/Dev/ecommercefirst/src",
+		"/C/Users/hp/Desktop/Django_Project/Django/Dev/ecommercefirst/src/accounts",
+		"/C/Users/hp/Desktop/Django_Project/Django/Dev/ecommercefirst/src/carts",
+		"/C/Users/hp/Desktop/Django_Project/Django/Dev/ecommercefirst/src/carts/templates",
+		"/C/Users/hp/Desktop/Django_Project/Django/Dev/ecommercefirst/src/carts/templates/carts",
+		"/C/Users/hp/Desktop/Django_Project/Django/Dev/ecommercefirst/src/static_my_project",
+		"/C/Users/hp/Desktop/Django_Project/Django/Dev/ecommercefirst/static_cdn",
+		"/C/Users/hp/Desktop/Django_Project/Django/Dev/ecommercefirst/tcl"
+	],
+	"file_history":
+	[
+		"/C/Users/hp/Desktop/angular-js-l1-training-master/assets/js/app.js",
+		"/C/Users/hp/Desktop/angular-js-l1-training-master/index.html",
+		"/C/Users/hp/Desktop/HTML_assignment/xena.html",
+		"/C/Users/hp/Desktop/python_new/9p.py",
+		"/C/Users/hp/Desktop/python new/3.py",
+		"/C/Users/hp/Desktop/python new/2.py",
+		"/C/Users/hp/Desktop/python new/4.py",
+		"/C/Users/hp/Downloads/assignments/css step/assignment 5/cssabove.html",
+		"/C/Users/hp/Downloads/assignments/css step/assignment 6/csstab1.html",
+		"/C/Users/hp/Downloads/assignments/css step/assignment 6/csstab2.html",
+		"/C/Users/hp/Downloads/assignments/css step/assignment 6/cssform2.html",
+		"/C/Users/hp/Downloads/assignments/css step/assignment 5/cssfont1.html",
+		"/C/Users/hp/Downloads/assignments/css step/assignment 6/cssform1.html",
+		"/C/Users/hp/Downloads/assignments/css step/assignment 5/csstext.html",
+		"/C/Users/hp/Downloads/assignments/css step/assignment 5/cssborder.html",
+		"/C/Users/hp/Downloads/assignments/css step/assignment 5/cssborder1.html",
+		"/C/Users/hp/Downloads/assignments/css step/assignment 5/csspos.html",
+		"/C/Users/hp/Downloads/assignments/css step/assignment 5/cssposborder.html",
+		"/C/Users/hp/Downloads/assignments/css step/assignment 1/css3.html",
+		"/C/Users/hp/Downloads/assignments/css step/assignment 1/css2.html",
+		"/C/Users/hp/Downloads/assignments/css step/assignment 1/css4.html",
+		"/C/Users/hp/Downloads/assignments/css step/assignment 2/csselement.html",
+		"/C/Users/hp/Downloads/assignments/css step/assignment 2/class1.html",
+		"/C/Users/hp/Downloads/assignments/css step/assignment 2/class2.html",
+		"/C/Users/hp/Downloads/assignments/css step/assignment 2/cssid.html",
+		"/C/Users/hp/Downloads/assignments/css step/assignment 3/csscon.html",
+		"/C/Users/hp/Downloads/assignments/css step/assignment 3/cssinher.html",
+		"/C/Users/hp/Downloads/assignments/css step/assignment 3/cssgroup.html",
+		"/C/Users/hp/Downloads/assignments/css step/assignment 3/csspsedo.html",
+		"/C/Users/hp/Downloads/assignments/css step/assignment 4/cssdiv1.html",
+		"/C/Users/hp/Downloads/assignments/css step/assignment 4/cssspan.html.html",
+		"/C/Users/hp/Downloads/assignments/css step/assignment 1/css1.html",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/carts/templates/carts/checkout.html",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/addresses/models.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/ecommerce/views.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/templatesdir/base.html",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/products/templates/products/detail.html",
+		"/C/Users/hp/Desktop/final/section separator/SectionSeparators/SectionSeparators/css/component.css",
+		"/C/Users/hp/Desktop/final/section separator/SectionSeparators/SectionSeparators/index.html",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/static_my_project/css/main.css",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/templatesdir/homepage.html",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/accounts/views.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/accounts/templates/accounts/register.html",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/accounts/templates/accounts/login.html",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/addresses/templates/addresses/form.html",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/carts/templates/carts/checkout-done.html",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/products/templates/products/list.html",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/products/templates/products/snippets/card.html",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/products/templates/products/snippets/update-cart.html",
+		"/C/Users/hp/Desktop/Blueprism/Wipro Technologies (Activation File)2.bpAct",
+		"/C/Users/hp/Desktop/Blueprism/Wipro Technologies (Activation File).bpAct",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/templatesdir/base/navbar.html",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/search/templates/search/snippets/search-form.html",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/templatesdir/base/footer.html",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/accounts/templates/accounts/snippets/form.html",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/search/templates/search/view.html",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/templatesdir/contact/view.html",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/carts/templates/carts/home.html",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/templatesdir/base/css.html",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/static_my_project/js/hovers.js",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/static_my_project/css/normalize.css",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/templatesdir/base/js.html",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/static_my_project/css/component.css",
+		"/C/Users/hp/Desktop/nav/alfha/css/component.css",
+		"/C/Users/hp/Desktop/nav/alfha/index.html",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/ecommerce/urls.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/addresses/views.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/addresses/templates/addresses/prev_addresses.html",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/carts/urls.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/carts/views.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/carts/models.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/orders/models.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/billing/models.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/addresses/forms.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/ecommerce/settings.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/addresses/admin.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/accounts/models.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/ecommerce/form.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/accounts/forms.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/accounts/admin.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/jquery/jquery.js",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/billing/admin.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/templatesdir/auth/login.html",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/orders/admin.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/products/tests.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/tags/models.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/products/models.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/ecommerce/utils.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/products/utils.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/products/views.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/products/urls.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/tags/views.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/carts/admin.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/templatesdir/auth/register.html",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/static_my_project/img/iconsvg2.svg",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/products/templates/products/featured-detail.html",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/static_my_project/css/mystyle.css",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/search/views.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/tags/admin.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/search/urls.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/search/models.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/search/templates/snippets/search-form.html",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/products/apps.py",
+		"/C/Users/hp/Desktop/office timing/iconsvg2.svg",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/static_cdn/static_root/css/main.css",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/products/admin.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/src/products/migrations/0001_initial.py",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/static_cdn/static_root/img/rose-blue-flower-rose-blooms-67636.jpg",
+		"/C/Users/hp/Desktop/Django Project/Django/Dev/ecommercefirst/ecommerce_sublime",
+		"/G/newdir/webdesign/webdesign/urls.py",
+		"/G/newdir/webdesign/webdesign/settings.py",
+		"/G/newdir/webdesign/webdesign/__init__.py"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 113.0,
+		"where_history":
+		[
+			"C:\\Users\\hp\\Desktop\\Django Project\\Django\\Dev\\ecommercefirst\\static_cdn\\static_root\\img"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"pill",
+			"scope",
+			"BookStoreConroller",
+			"{\n",
+			"%\"",
+			"red",
+			"active",
+			"images",
+			"foote",
+			"min-height",
+			"min-he",
+			";\"><",
+			"footer",
+			"/* footer start */",
+			"q",
+			"linebreaks",
+			"http",
+			"static_my_project",
+			"get_user_model",
+			"path"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"tab",
+			"caught"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/addresses/apps.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 93,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								93,
+								93
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/carts/templates/carts/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1397,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1256,
+								1256
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 594.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/hp/Desktop/template.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 247,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								247,
+								247
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/hp/Downloads/BDD_Trend_Nxt-master/BDD/Product_Comparison.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4313,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								4313
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/hp/Desktop/python_new/p8.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 404,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/hp/Desktop/python_new/Myxml.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 562,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								181,
+								181
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/hp/Desktop/python_new/filesize.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 248,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								248,
+								248
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ecommerce_sublime.sublime-project",
+	"replace":
+	{
+		"height": 74.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 219.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
